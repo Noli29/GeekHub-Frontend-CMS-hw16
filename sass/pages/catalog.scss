@@ -1,0 +1,174 @@
+main {
+  .title {
+    width: 35%;
+    float: left;
+
+    h1{
+      color: #646464;
+      font-family: $font;
+      font-size: 36px;
+      font-weight: 100;
+      line-height: 48px;
+    }
+
+    .block3{
+      text-align: $text-l;
+      width: 226px;
+      height: 605px;
+      background: #dfad00;
+      display: inline-block;
+      .sol{
+        padding-top: 25px;
+        li{
+          overflow: hidden;
+          a{
+            color: $color-white;
+            font-family: $font;
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 28px;
+            text-decoration: none;
+          }
+        }
+      }
+      .list{
+        li{
+          overflow: hidden;
+          a{
+            color: #ffde6c;
+            font-family: $font;
+            font-size: 12px;
+            font-weight: $font-weight-h3;
+            line-height: 21px;
+          }
+
+        }
+      }
+    }
+
+  }
+
+  .catalog {
+    width: 65%;
+    float: left;
+    text-align: $text-l;
+    padding-top: 40px;
+
+    span{
+      font-family: $font;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      color: #323232;
+
+      &:hover{
+        color: #dfad00;
+      }
+
+    }
+
+
+    .catalog-icon div {
+      display: inline-block;
+      margin: 10px 10px;
+
+      .text {
+        width: 200px;
+        display: block;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        text-align: $text-c;
+
+        &:nth-child(3n+1) {
+          margin-right: 0;
+        }
+
+        .price{
+          width: 30%;
+          float: left;
+          text-align: $text-l;
+          color: #4c93c3;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: 900;
+          line-height: 18px;
+        }
+        .btn-price{
+          width: 50%;
+          float: left;
+          text-align: $text-l
+        }
+      }
+
+      .item .picture {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+
+
+        .text p {
+          color: #323232;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: $font-weight-h3;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+
+  .watch{
+
+    h2{
+      color: #646464;
+      font-family: $font;
+      font-size: 36px;
+      font-weight: $font-weight-p;
+      line-height: 36px;
+      text-align: $text-l;
+    }
+
+    .watch-icon div {
+      background: #e0e2e2;
+      display: inline-block;
+      margin: 10px 10px;
+
+      .text {
+        background: #e0e2e2;
+        width: 150px;
+        display: block;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        text-align: $text-l;
+
+        &:nth-child(6n+1) {
+          margin-right: 0;
+        }
+
+        .price{
+          text-align: $text-l;
+          color: #4c93c3;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: 900;
+          line-height: 18px;
+        }
+      }
+
+      .item .picture {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+
+        .text p {
+          color: #323232;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: $font-weight-h3;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+

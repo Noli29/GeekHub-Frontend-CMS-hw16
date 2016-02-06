@@ -1,0 +1,25 @@
+main .text{
+  padding-bottom: 25px;
+  height: 100%;
+  background: $color-white;
+  text-align: $text-l;
+
+  h1 {
+    padding: 25px 0 25px 0;
+    text-align: $text-l;
+    color: #646464;
+    font-family: $font;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 36px;
+  }
+
+  p {
+    text-align: $text-l;
+    color: #323232;
+    font-family: $font;
+    font-size: 12px;
+    font-weight: $font-weight-p;
+    line-height: 18px;
+  }
+}

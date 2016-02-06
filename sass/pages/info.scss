@@ -1,0 +1,177 @@
+main .info{
+  height: 100%;
+
+
+  h1{
+    color: #646464;
+    font-family: $font;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 36px;
+    text-align: $text-l;
+    padding: 25px 0 25px 0;
+  }
+
+  .picture {
+    width: 50%;
+    float: left;
+    img{ max-width: 100%;
+      padding-bottom: 25px}
+
+  }
+
+  .text {
+    width: 50%;
+    float: left;
+    color: #323232;
+    font-family: $font;
+    font-size: 12px;
+    line-height: 24px;
+    padding-bottom: 290px;
+
+    .block1 {
+      width: 30%;
+      float: left;
+
+      font-weight: $font-weight-p;
+
+      .price{
+        padding-top: 25px;
+        font-family: $font;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 18px;
+        color: #4c93c3;
+      }
+
+      .after{
+        padding: 25px 0 45px 0;
+        line-height: 18px;
+        font-weight: $font-weight-h3;
+      }
+    }
+
+    .block2 {
+      width: 60%;
+
+      float: left;
+      font-weight: $font-weight-h3;
+
+      .price{
+        padding-top: 25px;
+        font-family: $font;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 18px;
+        color: #e9e9e9;
+        text-decoration: line-through;
+      }
+      .after{
+        padding-top: 25px;
+        line-height: 18px;
+        font-weight: $font-weight-p;
+      }
+    }
+
+
+
+  }
+
+
+  .info-icon div {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+
+  .item {
+    width: 450px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: $text-l;
+
+    &:nth-child(2n+1) {
+      margin-right: 0;
+    }
+
+    h3 {
+      font-size: 14px;
+      font-weight: $font-weight-h3;
+      line-height: 18px;
+    }
+
+    p {
+      font-size: 12px;
+      font-weight: $font-weight-p;
+      line-height: 18px;
+    }
+
+    a{
+      color: #4c93c3;
+      font-family: "Myriad Pro", sans-serif;
+      font-size: 12px;
+      font-weight: $font-weight-h3;
+      line-height: 18px;
+      text-decoration: none;
+      &:hover{
+        color: #f3726f;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .like{
+
+    h2{
+      color: #646464;
+      font-family: $font;
+      font-size: 36px;
+      font-weight: $font-weight-p;
+      line-height: 36px;
+      text-align: $text-l;
+    }
+
+    .like-icon div {
+      display: inline-block;
+      margin: 10px 2px;
+
+      .text {
+        width: 75px;
+        display: block;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        text-align: $text-l;
+        padding: 0;
+
+        &:nth-child(6n+1) {
+          margin-right: 0;
+        }
+
+        .price{
+          text-align: $text-l;
+          color: #4c93c3;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: 900;
+          line-height: 10px;
+        }
+      }
+
+      .like-list .picture {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+
+        .text p {
+
+          color: #323232;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: $font-weight-h3;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
