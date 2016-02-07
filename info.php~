@@ -6,13 +6,11 @@
 <main class="m-page">
         <div class="container">
             <div class="info">
-
                 <h1>Шампунь ежедневного пользования</h1>
                 <div class="picture">
                     <img src="images/picture.png">
                 </div>
                 <div class="text">
-
                     <div class="block1">
                         <div>
                             <div>Раздел:</div>
